@@ -1,0 +1,51 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 100%;
+}
+
+/* Nav Bar*/
+
+.hero-container {
+  display: flex;
+  border: 5px solid black;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 80px;
+  padding-left: 8vw;
+}
+.top-nav {
+  display: flex;
+  list-style: none;
+  border: 1px solid red;
+  align-items: center;
+  color: white;
+  margin: 0 6vw 2vh 0;
+}
+.top-nav > li {
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+li:first-child {
+  text-decoration: underline;
+}
+.btn {
+  padding: 14px 10px;
+  border: none;
+}
+.btn-green {
+  background-color: #0d0;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
