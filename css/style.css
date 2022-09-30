@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: popins, "san serif";
 }
 
 img {
@@ -71,3 +72,42 @@ li:first-child {
   font-size: 32px;
   padding-bottom: 20px;
 }
+
+
+.company-stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 5vh 0 5vh 7vw;
+  padding: 0 10vw;
+  border:1px solid black;
+}
+.company-perc {
+  font-size: 48px;
+  color: #0d0;
+  width: 40%;
+  font-weight: bold;
+  margin: 4vh 2vw;
+}
+.company-rate {
+  font-size: 28px;
+  font-weight: bolder;
+}
+.company-numbers{
+
+
+  width:15vw;
+}
+
+.left{
+  width:18vw;
+}
+.dash {
+  border-top: 3px solid #000;
+  width: 20px;
+  /* margin:16px 0 0 4vw; */
+  margin: 2vw 5vw;
+}
+.company-stats>.company-numbers>.dash{
+
+}
+
