@@ -190,3 +190,24 @@ h4{
   border:1px solid balck;
   margin-left:20vw;
 }
+.media {
+  background-color: #e6e6e6;
+  text-align: center;
+}
+
+.media > h1 {
+  font-size: 48px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.media-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.media-images > img {
+  width: 25%;
+}
