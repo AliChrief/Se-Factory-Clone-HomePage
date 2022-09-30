@@ -105,6 +105,7 @@ li:first-child {
 }
 .company-stats-prof {
   display: flex;
+  margin:20px;
 }
 
 .study-img {
@@ -115,7 +116,7 @@ li:first-child {
   width: 100%;
 }
 .company-skill-content {
-  width: 39%;
+  width: 45%;
 }
 h2 {
   font-size: 60px;
@@ -155,4 +156,37 @@ h3{
 .program-section>div>img{
   width:100%;
 }
+.text-partner{
+  width:100%;
+  margin:15vh 0;
+  text-align: center;
+}
+h4{
+  font-size:30px;
+  width:50%;
+  margin:4vh auto;
+}
+.text-partner > p {
+  font-size:24px;
+}
+/* .rp-images{
+  width:80%;
+  
+}
+.rp-images > img{
+  width:100%;
+} */
 
+.rp-images {
+  width: 100%;
+}
+.rp-images > img {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.rp-images > img:last-child {
+  width: 60%;
+  border:1px solid balck;
+  margin-left:20vw;
+}
